@@ -8,12 +8,12 @@
 Summary:	File::OldSlurp - single call read & write file routines; read directories
 Summary(pl):	File::OldSlurp - funkcje odczytu i zapisu za jednym wywo³aniem
 Name:		perl-File-OldSlurp
-Version:	2003.1125
+Version:	2004.0430
 Release:	1
 License:	distributable (see README)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	12331853981a39b53a5cd50ee1176969
+# Source0-md5:	bc221d24ff6d0d591ab046e5fe6ac771
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -43,7 +43,7 @@ znaczenie od szybko¶ci pracy, a nie s± potrzebne nowe mo¿liwo¶ci, ta
 wersja nadal ma zastosowanie.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-2004.043
 
 %build
 %{__perl} Makefile.PL \
