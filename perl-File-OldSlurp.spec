@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	OldSlurp
+%define		pdir	File
+%define		pnam	OldSlurp
 Summary:	File::OldSlurp - single call read & write file routines; read directories
 Summary(pl):	File::OldSlurp - funkcje odczytu i zapisu za jednym wywo³aniem
 Name:		perl-File-OldSlurp
