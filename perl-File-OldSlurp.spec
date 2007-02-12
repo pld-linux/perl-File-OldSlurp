@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	OldSlurp
 Summary:	File::OldSlurp - single call read & write file routines; read directories
-Summary(pl):	File::OldSlurp - funkcje odczytu i zapisu za jednym wywo³aniem
+Summary(pl.UTF-8):   File::OldSlurp - funkcje odczytu i zapisu za jednym wywoÅ‚aniem
 Name:		perl-File-OldSlurp
 Version:	2004.0430
 Release:	1
@@ -30,16 +30,16 @@ has some merit: it is much smaller and thus if speed of complilation
 is more important that slurping speed, and you don't need the new
 features, then this version is still useful.
 
-%description -l pl
-Ten modu³ zawiera szybkie funkcje, które maj± s³u¿yæ do zaoszczêdzenia
-wpisywania tych samych linii kodu wiele razy. Nie robi± niczego
+%description -l pl.UTF-8
+Ten moduÅ‚ zawiera szybkie funkcje, ktÃ³re majÄ… sÅ‚uÅ¼yÄ‡ do zaoszczÄ™dzenia
+wpisywania tych samych linii kodu wiele razy. Nie robiÄ… niczego
 fantazyjnego.
 
-Ten modu³ nazywa³ siê kiedy¶ File::Slurp. Uri Guttman napisa³ wersjê
-z wiêkszymi mo¿liwo¶ciami i szybsz±, wiêc David Muir Sharnoff (autor
-tego modu³u) odda³ mu przestrzeñ nazw. Jednak ta wersja nadal ma pewne
-zalety: jest du¿o mniejsza i je¶li szybko¶æ kompilacji ma wiêksze
-znaczenie od szybko¶ci pracy, a nie s± potrzebne nowe mo¿liwo¶ci, ta
+Ten moduÅ‚ nazywaÅ‚ siÄ™ kiedyÅ› File::Slurp. Uri Guttman napisaÅ‚ wersjÄ™
+z wiÄ™kszymi moÅ¼liwoÅ›ciami i szybszÄ…, wiÄ™c David Muir Sharnoff (autor
+tego moduÅ‚u) oddaÅ‚ mu przestrzeÅ„ nazw. Jednak ta wersja nadal ma pewne
+zalety: jest duÅ¼o mniejsza i jeÅ›li szybkoÅ›Ä‡ kompilacji ma wiÄ™ksze
+znaczenie od szybkoÅ›ci pracy, a nie sÄ… potrzebne nowe moÅ¼liwoÅ›ci, ta
 wersja nadal ma zastosowanie.
 
 %prep
