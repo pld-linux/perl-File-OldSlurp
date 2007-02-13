@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	OldSlurp
 Summary:	File::OldSlurp - single call read & write file routines; read directories
-Summary(pl.UTF-8):   File::OldSlurp - funkcje odczytu i zapisu za jednym wywołaniem
+Summary(pl.UTF-8):	File::OldSlurp - funkcje odczytu i zapisu za jednym wywołaniem
 Name:		perl-File-OldSlurp
 Version:	2004.0430
 Release:	1
