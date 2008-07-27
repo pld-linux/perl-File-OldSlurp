@@ -9,7 +9,7 @@ Summary:	File::OldSlurp - single call read & write file routines; read directori
 Summary(pl.UTF-8):	File::OldSlurp - funkcje odczytu i zapisu za jednym wywołaniem
 Name:		perl-File-OldSlurp
 Version:	2004.0430
-Release:	1
+Release:	2
 License:	distributable (see README)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
