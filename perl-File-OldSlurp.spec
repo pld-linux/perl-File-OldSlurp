@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	File
 %define		pnam	OldSlurp
+%include	/usr/lib/rpm/macros.perl
 Summary:	File::OldSlurp - single call read & write file routines; read directories
 Summary(pl.UTF-8):	File::OldSlurp - funkcje odczytu i zapisu za jednym wywołaniem
 Name:		perl-File-OldSlurp
@@ -14,6 +14,7 @@ License:	distributable (see README)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bc221d24ff6d0d591ab046e5fe6ac771
+URL:		http://search.cpan.org/dist/File-OldSlurp/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -35,8 +36,8 @@ Ten moduł zawiera szybkie funkcje, które mają służyć do zaoszczędzenia
 wpisywania tych samych linii kodu wiele razy. Nie robią niczego
 fantazyjnego.
 
-Ten moduł nazywał się kiedyś File::Slurp. Uri Guttman napisał wersję
-z większymi możliwościami i szybszą, więc David Muir Sharnoff (autor
+Ten moduł nazywał się kiedyś File::Slurp. Uri Guttman napisał wersję z
+większymi możliwościami i szybszą, więc David Muir Sharnoff (autor
 tego modułu) oddał mu przestrzeń nazw. Jednak ta wersja nadal ma pewne
 zalety: jest dużo mniejsza i jeśli szybkość kompilacji ma większe
 znaczenie od szybkości pracy, a nie są potrzebne nowe możliwości, ta
